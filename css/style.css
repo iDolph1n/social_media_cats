@@ -14,11 +14,14 @@ body {
   background-color: #c0c6dc;
 }
 
-.heading {
+.title {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 1px;
+  width: 203px;
+  height: 55px;
+  margin-top: 20px;
 }
 
 svg {
@@ -50,13 +53,16 @@ button {
   padding: 14px 16px;
   width: 290px;
   height: 48px;
+  cursor: pointer;
 }
 
+.bot-btn:hover,
 .top-btn {
   background-color: #7549ea;
   color: #fff;
 }
 
+.top-btn:hover,
 .bot-btn {
   background-color: inherit;
   color: #7549ea;
@@ -89,9 +95,15 @@ h2 {
   width: 1200px;
   background-color: #fff;
   margin: 27px auto;
-  padding: 13px 18px;
+  /* padding: 13px 18px; */
   display: flex;
   gap: 60px;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #7549ea;
 }
 
 .interests {
@@ -110,4 +122,48 @@ h2 {
   font-size: 14px;
   line-height: 171%;
   color: #7549ea;
+}
+
+.info-box > p {
+  display: flex;
+  gap: 24px;
+}
+
+.info-box > p > strong {
+  width: 80px;
+}
+
+.text {
+  border-bottom: solid 1px rgba(204, 204, 204, 1);
+}
+
+.text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #4a5161;
+}
+
+li {
+  padding-left: 8px;
+  margin-bottom: 10px;
+}
+
+li a {
+  font-weight: 700;
+}
+
+.list-item,
+li::marker {
+  font-weight: bold;
+}
+
+.inner-list {
+  margin-top: 10px;
+  list-style-type: disc;
+}
+
+.inner-list > li {
+  font-weight: 400;
+  color: #4a5161;
 }
