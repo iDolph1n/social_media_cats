@@ -11,7 +11,7 @@ The work is presented as a design mockup of a social network for cats and their 
 - Uploading photos of pets / Загрузка фотографий питомцев
 - Likes and notifications service / Сервис лайков и уведомлений
 
-## Technologies (Технологии):
+## 🛠 Technologies (Технологии):
 - HTML5
 - CSS Modules
 - CSS3
@@ -34,7 +34,7 @@ npm install
 
 ## 📄 License MIT (Лицензия)
 
-The project is licensed under the MIT License. For more details, see the [LICENSE](./LICENSE/) file.
+The project is licensed under the MIT License. For more details, see the [LICENSE](./LICENSE/) file /
 Проект распространяется под лицензией MIT. Ознакомиться подробнее можно в файле [LICENSE](./LICENSE/).
 
 ___
